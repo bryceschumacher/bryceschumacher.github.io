@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+body {
+    background-color: #3B424B;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.625vw;
+}
+
+.name {
+    color: rgb(233, 232, 232);
+    font-size: 1.5vw;
+    padding: 14px 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(233, 232, 232);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5vw;
+  }
+  
+/* li a:hover {
+    background-color: #111;
+} */
+
+li:hover {
+    border-bottom: 0.0625em solid rgb(233, 232, 232);
+}
+
+.intro {
+    margin-left: 3vw;
+    margin-top: 8vw;
+    color: rgb(233, 232, 232);
+    font-size: 5vw;
+    font-family: 'Marker Felt', fantasy
+}
+
+.nav-down {
+    margin-top: 18vw;
+    text-align: center;
+
+}
+
+.arrow {
+    border: solid rgb(233, 232, 232);;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 20px;
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+    
+}
+
+.intro h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+      /* typing 3.5s steps(30, end), */
+      typing 2.5s steps(20, end),
+      blink-caret 1s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(233, 232, 232);; }
+  }
+
+
+.about-me-box {
+    border-radius: 25px;
+    margin: 6vw 1vw 3vw 1vw;
+    background-color: rgb(233, 232, 232);
+    padding: 3vw;
+}
+
+.about-me-box h2 {
+    font-size: 1.7vw;
+}
+
+.about-me-box p {
+    font-size: 1.1vw;
+}
+.box1 {
+    border-radius: 1.7vw;
+    width: 42%;
+    background-color: rgb(233, 232, 232);
+    padding: 2vw 3vw;
+    display: inline-block;
+    margin-right: 1.5vw;
+    margin-left: 1vw;
+}
+.box1 h2, .box2 h2, .box3 h2, .box4 h2 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.box1 p.technologies-used, .box2 p.technologies-used, .box3 p.technologies-used, .box4 p.technologies-used {
+    font-size: 0.8vw;
+}
+
+.box1 p {
+    margin-top: 1.2vw;
+    margin-bottom: 1vw;
+}
+
+.box2 p {
+    margin-top: 1.2vw;
+    margin-bottom: 1vw;
+}
+
+
+.box2 {
+    border-radius: 1.7vw;;
+    width: 42%;
+    background-color: rgb(233, 232, 232);
+    padding: 2vw 3vw;
+    display: inline-block;
+}
+
+.box3 {
+    border-radius: 1.7vw;
+    width: 42%;
+    background-color: rgb(233, 232, 232);
+    padding: 2vw 3vw;
+    display: inline-block;
+    margin-right: 1.5vw;
+    margin-left: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+.box4 {
+    border-radius: 1.7vw;;
+    width: 42%;
+    background-color: rgb(233, 232, 232);
+    padding: 2vw 3vw;
+    display: inline-block;
+    margin-top: 2vw;
+}
+
+
+.projects-intro {
+    text-align: center;
+    font-size: 3vw;
+    font-style:italic;
+    color:rgb(233, 232, 232);
+}
+
+.img-icons {
+    height: 3vw;
+    width: 4vw;
+}
+
+
+.head-bd img.first-img {
+    display: inline-block;
+    margin-bottom: -0.8vw;
+    margin-right: 1.5vw;
+}
+
+.head-bd img.second-img {
+    display: inline-block;
+    margin-left: 1vw;
+    margin-bottom: -1.7vw;
+}
+.head-bd h2 {
+    display: inline-block;
+}
+
+.head-bad-crypto img{
+    display: inline-block;
+    margin-bottom: -0.65vw;
+    margin-left: 1vw;
+}
+
+.head-bad-crypto h2 {
+    display: inline-block;
+    margin-left: 20%;
+}
